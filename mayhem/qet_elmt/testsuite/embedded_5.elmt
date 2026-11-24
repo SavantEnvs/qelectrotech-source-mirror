@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition height="60" hotspot_x="9" hotspot_y="30" link_type="slave" type="element" version="0.100.0" width="20">
+                                        <uuid uuid="{a48a492d-e5e9-8768-2997-a2e4ec843957}"/>
+                                        <names>
+                                            <name lang="ar">مُلامس بسيط (NC)</name>
+                                            <name lang="ca">Contacte simple (NC)</name>
+                                            <name lang="cs">Rozpínací kontakt</name>
+                                            <name lang="da">Enkel kontakt (NC)</name>
+                                            <name lang="de">Öffner</name>
+                                            <name lang="el">Απλή επαφή, κλειστή</name>
+                                            <name lang="en">Simple contact (NC)</name>
+                                            <name lang="es">Contactor simple (NC)</name>
+                                            <name lang="fi">Yksinkertainen kosketin (NC)</name>
+                                            <name lang="fr">Contact simple (NF)</name>
+                                            <name lang="hr">Jednostavni kontakt (NC)</name>
+                                            <name lang="hu">Egyszerű érintkező (NC)</name>
+                                            <name lang="it">Contatto semplice (NC)</name>
+                                            <name lang="ja">単純接点 (NC)</name>
+                                            <name lang="ko">단순 접점 (NC)</name>
+                                            <name lang="mn">Энгийн контакт (NC)</name>
+                                            <name lang="nb">Enkel kontakt (NC)</name>
+                                            <name lang="nl">contact normaal gesloten enkel simpel (NC)</name>
+                                            <name lang="nl_BE">Eenvoudig contact (NC)</name>
+                                            <name lang="pl">Zestyk rozwierny</name>
+                                            <name lang="pt">Contacto simples (NC)</name>
+                                            <name lang="pt_BR">Contato simples (NF)</name>
+                                            <name lang="ro">Contact simplu (NC)</name>
+                                            <name lang="ru">Проктой контакт (НЗ)</name>
+                                            <name lang="sk">Jednoduchý kontakt (NC)</name>
+                                            <name lang="sl">Enostavni kontakt (NC)</name>
+                                            <name lang="sr">Прости контакт (NC)</name>
+                                            <name lang="sv">Enkelkontakt (NC)</name>
+                                            <name lang="tr">Basit kontak (NC)</name>
+                                            <name lang="uk">Простий контакт (NC)</name>
+                                            <name lang="zh">简单常闭连接器</name>
+                                        </names>
+                                        <kindInformations>
+                                            <kindInformation name="type">simple</kindInformation>
+                                            <kindInformation name="state">NC</kindInformation>
+                                            <kindInformation name="number">1</kindInformation>
+                                        </kindInformations>
+                                        <informations>Author: The QElectroTech team
+License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
+                                        <description>
+                                            <polygon antialias="true" closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="5" x2="0" x3="0" y1="-10" y2="10" y3="20"/>
+                                            <line antialias="false" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" x2="6" y1="-9" y2="-9"/>
+                                            <line antialias="false" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" x2="0" y1="-20" y2="-9"/>
+                                            <dynamic_text Halignment="AlignLeft" Valignment="AlignTop" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular" frame="false" keep_visual_rotation="false" rotation="0" text_from="ElementInfo" text_width="-1" uuid="{a146a302-ef1b-41e3-8587-76ab60f555e6}" x="5.75" y="-9.5" z="4">
+                                                <text/>
+                                                <info_name>label</info_name>
+                                            </dynamic_text>
+                                            <terminal name="" orientation="n" type="Generic" uuid="{d6e0cd1d-504b-405a-810c-7d5ae24c981d}" x="0" y="-20"/>
+                                            <terminal name="" orientation="s" type="Generic" uuid="{9472aef6-8807-4083-bb2c-e774011a97d9}" x="0" y="20"/>
+                                        </description>
+                                    </definition>

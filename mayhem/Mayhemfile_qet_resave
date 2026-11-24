@@ -1,0 +1,11 @@
+project: savantenvs/qelectrotech-source-mirror
+target: qet_resave
+
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/qet_resave/testsuite
+
+cmds:
+  - cmd: /mayhem/fuzz_qet_resave
+    libfuzzer: true
+    timeout: 10

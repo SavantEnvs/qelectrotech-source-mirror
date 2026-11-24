@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition height="60" hotspot_x="20" hotspot_y="32" link_type="master" type="element" version="0.100.0" width="40">
+    <uuid uuid="{793302b1-e96a-f7f8-70bc-dec53eeaab5b}"/>
+    <names>
+        <name lang="ar">ملف</name>
+        <name lang="ca">Bobina</name>
+        <name lang="cs">Cívka relé</name>
+        <name lang="da">Relæ</name>
+        <name lang="de">Spule</name>
+        <name lang="el">Πηνίο</name>
+        <name lang="en">Coil</name>
+        <name lang="es">Bobina</name>
+        <name lang="fi">Käämi</name>
+        <name lang="fr">Bobine</name>
+        <name lang="hr">Zavojnica</name>
+        <name lang="hu">Tekercs</name>
+        <name lang="it">Bobina</name>
+        <name lang="ja">コイル</name>
+        <name lang="ko">코일</name>
+        <name lang="mn">Ороомог</name>
+        <name lang="nb">Spole</name>
+        <name lang="nl">Spoel</name>
+        <name lang="nl_BE">Relais spoel (algemeen)</name>
+        <name lang="pl">Cewka</name>
+        <name lang="pt">Bobina</name>
+        <name lang="pt_BR">Bobina</name>
+        <name lang="ro">Bobina</name>
+        <name lang="ru">Обмотка</name>
+        <name lang="sk">Cievka</name>
+        <name lang="sl">Tuljava</name>
+        <name lang="sr">Каlem</name>
+        <name lang="sv">Spole</name>
+        <name lang="tr">Bobin</name>
+        <name lang="uk">Котушка</name>
+        <name lang="zh">三线圈</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">plc</kindInformation>
+    </kindInformations>
+    <informations>Author: The QElectroTech team
+License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
+    <description>
+        <rect antialias="false" height="16" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" width="28" x="-14" y="-8"/>
+        <line antialias="false" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" x2="0" y1="-20" y2="-8"/>
+        <dynamic_text Halignment="AlignLeft" Valignment="AlignTop" font="Liberation Sans,4,-1,5,25,0,0,0,0,0,Regular" frame="false" keep_visual_rotation="false" rotation="0" text_from="UserText" text_width="-1" uuid="{0a58bdda-9173-48ba-acaa-35f2dc00c4bb}" x="2" y="11.33" z="3">
+            <text>A2</text>
+        </dynamic_text>
+        <dynamic_text Halignment="AlignLeft" Valignment="AlignTop" font="Liberation Sans,4,-1,5,25,0,0,0,0,0,Regular" frame="false" keep_visual_rotation="false" rotation="0" text_from="UserText" text_width="-1" uuid="{7e98ddfe-fde0-4715-a926-9f60cf750078}" x="2" y="-24.67" z="4">
+            <text>A1</text>
+        </dynamic_text>
+        <line antialias="false" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" x2="0" y1="8" y2="20"/>
+        <dynamic_text Halignment="AlignLeft" Valignment="AlignTop" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular" frame="false" keep_visual_rotation="false" rotation="0" text_from="ElementInfo" text_width="-1" uuid="{3ef105d2-add6-4c4b-a4cd-120c40096202}" x="25" y="-9.17" z="6">
+            <text/>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <terminal name="A1" orientation="n" type="Generic" uuid="{8d0fa333-2d98-4a75-8a4e-21c81cce7ec3}" x="0" y="-20"/>
+        <terminal name="A2" orientation="s" type="Generic" uuid="{c5376fd7-bdf1-4c10-985a-0d7d5f52c8f9}" x="0" y="20"/>
+    </description>
+</definition>
