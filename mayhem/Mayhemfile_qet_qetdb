@@ -1,0 +1,11 @@
+project: savantenvs/qelectrotech-source-mirror
+target: qet_qetdb
+
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/qet_qetdb/testsuite
+
+cmds:
+  - cmd: /mayhem/fuzz_qet_qetdb
+    libfuzzer: true
+    timeout: 10
